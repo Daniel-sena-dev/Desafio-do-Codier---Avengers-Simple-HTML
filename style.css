@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+:root{
+    --fonteDestaque: 'Bungee Shade', cursive;
+    --fonteNav : 'Bangers', cursive;
+
+    --cor00: #0D0D0D;
+    --cor01: #2F080D;
+    --cor02: #400101;
+    --cor03: #971112;
+    --cor04: #BF1F2C;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none; 
+    color: var(--cor03);
+    font-family: var(--fonteNav); 
+    padding: 10px;
+}
+
+a:hover{
+    background-color: var(--cor03);
+    color: var(--cor00);
+}
+
+
+header h1{
+    background-color: var(--cor00);
+    font-family: var(--fonteDestaque);
+    text-align: right;
+    padding: 10px;
+    color: var(--cor03);
+    font-size: 3em;
+}
+
+
+
+
+nav{
+    background-color:   var(--cor00);
+    text-align: right;
+    padding: 0px 20px 10px 20px;
+    
+    
+}
+nav li{
+    display: inline-block;
+    
+}
+
+main{
+    margin: auto;
+    width: 100%;
+    background-image: url(demolidor-fundo.jpg);      
+    background-repeat: no-repeat;    
+    padding: 100px 0 100px 0px;
+}
+
+section{
+   background-color: var(--cor00);
+   color: var(--cor03);
+   font-family: var(--fonteNav);
+   width: 30%;
+   margin: 0px 20px;
+   padding: 50px ;
+   border-radius: 10px;
+   box-shadow: inset -5px -5px 5px rgba(0, 0, 0, 0.342);
+}
+
+section h2{
+    padding: 10px;
+}
+section p{
+    padding: 10px;
+}
+
+footer{
+    background-color: var(--cor00);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a{
+    padding: 0px;
+}
